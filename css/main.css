@@ -148,10 +148,10 @@ img {
 
 .flex-box > .content > .projects > .show-case > .item {
   background-color: rgba(0, 0, 0, 0.6);
-  background-image: linear-gradient(rgb(232,232,232), rgb(200,200,200), rgb(168,168,168));
+  background-image: linear-gradient(rgb(200,200,200), rgb(104,104,104), rgb(64,64,64));
   border: 1px solid #000;
   border-radius: 10px;
-  color: rgba(80, 80, 80, 1);
+  color: rgba(192, 192, 192, 1);
   padding: 25px 0 40px 0;
   text-align: center;
   width: 80%;
