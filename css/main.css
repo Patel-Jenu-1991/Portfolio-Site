@@ -2,7 +2,7 @@
 /*                          portfolio stylesheet                              */
 /* -------------------------------------------------------------------------- */
 
-@import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great|Muli:100|Orbitron');
+@import url(https://fonts.googleapis.com/css?family=Fredericka+the+Great|Muli:100|Orbitron);
 
 * {
   margin: 0;
@@ -46,7 +46,12 @@ img {
 }
 
 .flex-box > .side-bar > .color-stack > .color-tiles {
+  cursor: pointer;
   list-style: none;
+}
+
+.flex-box > .side-bar > .color-stack > .color-tiles > li > svg {
+  border: 1px solid #000;
 }
 
 .flex-box > .side-bar > .color-stack > .color-tiles > li > .hex-value {
@@ -54,6 +59,15 @@ img {
   font-weight: lighter;
   margin-left: -15px;
   margin-bottom: 20px;
+}
+
+.black-color {
+  color: #000;
+}
+
+.flex-box > .side-bar > .color-stack > .color-tiles > li > .hex-value:hover {
+  font-size: 28px;
+  text-decoration: underline;
 }
 
 /* -------------------------------------------------------------------------- */
@@ -80,6 +94,7 @@ img {
 }
 
 .flex-box > .content > .doc-header > .logo {
+  cursor: pointer;
   float: left;
   margin-top: 35px;
 }
@@ -114,7 +129,7 @@ img {
 /* feature-banner */
 
 .flex-box > .content > .feature-banner {
-  background: url("../img/open-web.png") repeat-x 0 100%;
+  background: url(../img/open-web.png) repeat-x 0 100%;
   height: 40%;
 }
 
@@ -162,6 +177,11 @@ img {
   padding: 5px;
 }
 
+.flex-box > .content > .projects > .show-case > .item > .item-description > a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .flex-box > .content > .projects > .show-case > .item > .thumbnail {
   height: 80%;
   padding-bottom: 10px;
@@ -179,7 +199,7 @@ img {
   font-weight: bold;
   height: 5%;
   letter-spacing: 2px;
-  padding-top: 18px;
+  padding-top: 30px;
   text-align: center;
   width: 100%;
 }
