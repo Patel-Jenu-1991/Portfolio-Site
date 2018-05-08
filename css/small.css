@@ -1,0 +1,106 @@
+
+.flex-box > .side-bar {
+  width: 20%;
+}
+
+.flex-box > .side-bar > .color-stack {
+  margin-top: 145%;
+  margin-left: 20px;
+}
+
+.flex-box > .side-bar > .color-stack > .color-tiles > li > .hex-value {
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.flex-box > .side-bar > .color-stack > .color-tiles > li > .hex-value:hover {
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.flex-box > .side-bar > .color-stack > .color-tiles > li > svg {
+  width: 70%;
+  height: 50%;
+}
+
+.flex-box > .content {
+  width: 80%;
+  overflow: auto;
+}
+
+.flex-box > .content > .doc-header {
+  height: 15%;
+}
+
+.flex-box > .content > .doc-header > .logo {
+  margin-top: 30px;
+}
+
+.flex-box > .content > .doc-header > .logo > img {
+  width: 40px;
+  height: 40px;
+}
+
+.flex-box > .content > .doc-header > .title-text {
+  margin-top: 30px;
+  margin-right: 10px;
+}
+
+.flex-box > .content > .doc-header > .title-text > h1 {
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+
+.flex-box > .content > .doc-header > .title-text > h2 {
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.flex-box > .content > .feature-banner {
+  background-image: url(../img/html5-landing.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 35%;
+}
+
+.flex-box > .content > .projects > .work-title > h2 {
+  font-size: 22px;
+  padding: 5px 0 5px 10px;
+}
+
+.flex-box > .content > .projects > .show-case {
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 14px;
+  padding: 5px;
+}
+
+.flex-box > .content > .projects > .show-case > .item {
+  box-shadow: 2px 2px 2px 2px #a0a0a0;
+  padding: 5px;
+  width: 70%;
+}
+
+
+.flex-box > .content > .projects > .show-case > .item > .item-description > h3 {
+  font-size: 16px;
+  font-weight: 300;
+  padding: 0;
+}
+
+.flex-box > .content > .projects > .show-case > .item > .item-description > a {
+  font-size: 12px;
+}
+
+.flex-box > .content > .projects > .show-case > .item > .thumbnail {
+  height: 50%;
+  padding: 0;
+  width: 60%;
+}
+
+.foot-note {
+  font-size: 11px;
+  font-weight: bolder;
+  padding-top: 8px;
+}

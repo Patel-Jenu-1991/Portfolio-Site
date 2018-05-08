@@ -79,6 +79,7 @@ img {
   flex: 1;
   width: 88%;
   height: 95%;
+  overflow: hidden;
 }
 
 /* -------------------------------------------------------------------------- */
@@ -129,8 +130,9 @@ img {
 /* feature-banner */
 
 .flex-box > .content > .feature-banner {
-  background: url(../img/open-web.png) repeat-x 0 100%;
+  background: url(../img/open-web.png) repeat 0 100%;
   height: 40%;
+  width: 100%;
 }
 
 .flex-box > .content > .feature-banner > .invisible-heading {
@@ -166,6 +168,7 @@ img {
   background-image: linear-gradient(rgb(200,200,200), rgb(104,104,104), rgb(64,64,64));
   border: 1px solid #000;
   border-radius: 10px;
+  box-shadow: 2px 3px 2px 3px #a0a0a0;
   color: rgba(192, 192, 192, 1);
   padding: 25px 0 40px 0;
   text-align: center;
@@ -199,7 +202,7 @@ img {
   font-weight: bold;
   height: 5%;
   letter-spacing: 2px;
-  padding-top: 30px;
+  padding-top: 15px;
   text-align: center;
   width: 100%;
 }
