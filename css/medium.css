@@ -1,11 +1,33 @@
 /* -------------------------------------------------------------------------- */
 
+/* flex-box */
+
+.flex-box {
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* -------------------------------------------------------------------------- */
+
+/* -------------------------------------------------------------------------- */
+
 /* side-bar */
 
 .flex-box > .side-bar {
   width: 20%;
 }
 
+/* -------------------------------------------------------------------------- */
+/* Hamburger Menu */
+/* -------------------------------------------------------------------------- */
+
+.flex-box > .side-bar .hamburger-icon {
+    margin-top: 80px;
+}
+.flex-box > .side-bar > .color-stack {
+  padding: 70px 0 0 85px;
+}
 /* -------------------------------------------------------------------------- */
 
 /* document header */
@@ -24,7 +46,7 @@
   letter-spacing: 1px;
 }
 
-.flex-box > .content > .doc-header > .title-text > h2 {
+.flex-box > .content > .doc-header > .title-text > p {
   font-weight: bold;
 }
 
@@ -63,6 +85,12 @@
 
 .flex-box > .content > .projects > .show-case > .item > .item-description > a {
   font-size: 24px;
+}
+
+.flex-box > .content > .projects > .work-title > h2 {
+  font-size: 46px;
+  letter-spacing: 3px;
+  padding: 5px 0 20px 20px;
 }
 
 /* -------------------------------------------------------------------------- */
