@@ -41,7 +41,7 @@ img {
 }
 
 .flex-box > .side-bar > .color-stack {
-  margin-top: 210px;
+  margin-top: 170px;
   margin-left: 90px;
 }
 
@@ -59,6 +59,7 @@ img {
   font-weight: lighter;
   margin-left: -15px;
   margin-bottom: 20px;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.7);
 }
 
 .black-color {
@@ -68,6 +69,68 @@ img {
 .flex-box > .side-bar > .color-stack > .color-tiles > li > .hex-value:hover {
   font-size: 28px;
   text-decoration: underline;
+}
+
+/* -------------------------------------------------------------------------- */
+/* Hamburger Menu */
+/* -------------------------------------------------------------------------- */
+
+.flex-box > .side-bar .hamburger-icon {
+    background-color: #fff;
+    cursor: pointer;
+    padding: 16px;
+}
+
+.flex-box > .side-bar .hamburger-icon span {
+  background: #000;
+  display: block;
+  width: 30px;
+  height: 5px;
+  margin: 3px 0;
+}
+
+.flex-box > .side-bar .dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.flex-box > .side-bar .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.flex-box > .side-bar .dropdown-content ul {
+  list-style: none;
+}
+
+.flex-box > .side-bar .dropdown-content ul li a img.linkedin {
+  background: #000;
+}
+
+.flex-box > .side-bar .dropdown-content a {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.flex-box > .side-bar .dropdown-content a:hover {
+  background-color: #f1f1f1
+}
+
+.flex-box > .side-bar .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.flex-box > .side-bar .dropdown:hover .hamburger-icon {
+    background-color: #000;
+}
+
+.flex-box > .side-bar .dropdown:hover .hamburger-icon span {
+  background-color: #fff;
 }
 
 /* -------------------------------------------------------------------------- */
@@ -116,12 +179,14 @@ img {
   font-family: 'Fredericka the Great', sans-serif, serif;
   font-size: 70px;
   font-weight: 100;
+  text-shadow: 3px 3px rgba(184, 184, 184, 1);
   text-transform: uppercase;
 }
 
 .flex-box > .content > .doc-header > .title-text > h2 {
   font-size: 30px;
   font-weight: 300;
+  text-shadow: 2px 2px rgba(184, 184, 184, 1);
   text-transform: uppercase;
 }
 
@@ -130,7 +195,7 @@ img {
 /* feature-banner */
 
 .flex-box > .content > .feature-banner {
-  background: url(../img/open-web.png) repeat 0 100%;
+  background: url(../img/open-web.png) repeat-x 0 100%;
   height: 40%;
   width: 100%;
 }
@@ -154,6 +219,7 @@ img {
   letter-spacing: 2px;
   padding: 30px 0 20px 20px;
   text-decoration: underline;
+  text-shadow: 1px 1px rgba(0, 0, 0, 1);
 }
 
 .flex-box > .content > .projects > .show-case {
@@ -172,6 +238,7 @@ img {
   color: rgba(192, 192, 192, 1);
   padding: 25px 0 40px 0;
   text-align: center;
+  text-shadow: 1px 1px rgba(0, 0, 0, 1);
   width: 80%;
 }
 
@@ -202,8 +269,9 @@ img {
   font-weight: bold;
   height: 5%;
   letter-spacing: 2px;
-  padding-top: 15px;
+  padding-top: 20px;
   text-align: center;
+  text-shadow: 1px 1px rgba(184, 184, 184, 1);
   width: 100%;
 }
 

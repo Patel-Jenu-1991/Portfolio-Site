@@ -1,17 +1,25 @@
+/* -------------------------------------------------------------------------- */
+
+/* side-bar */
 
 .flex-box > .side-bar {
   width: 20%;
 }
 
 .flex-box > .side-bar > .color-stack {
-  margin-top: 145%;
+  margin-top: 95%;
   margin-left: 20px;
+  text-align: center;
+}
+
+.flex-box > .side-bar > .color-stack > .color-tiles > li > svg {
+  width: 40px;
+  height: 40px;
 }
 
 .flex-box > .side-bar > .color-stack > .color-tiles > li > .hex-value {
   font-size: 14px;
   font-weight: 500;
-  text-align: center;
 }
 
 .flex-box > .side-bar > .color-stack > .color-tiles > li > .hex-value:hover {
@@ -19,15 +27,18 @@
   text-decoration: none;
 }
 
-.flex-box > .side-bar > .color-stack > .color-tiles > li > svg {
-  width: 70%;
-  height: 50%;
-}
+/* -------------------------------------------------------------------------- */
+/*                                Main content                                */
+/* -------------------------------------------------------------------------- */
 
 .flex-box > .content {
   width: 80%;
   overflow: auto;
 }
+
+/* -------------------------------------------------------------------------- */
+
+/* document header */
 
 .flex-box > .content > .doc-header {
   height: 15%;
@@ -50,19 +61,29 @@
 .flex-box > .content > .doc-header > .title-text > h1 {
   font-size: 15px;
   letter-spacing: 1px;
+  text-shadow: 1px 1px rgba(184, 184, 184, 1);
 }
 
 .flex-box > .content > .doc-header > .title-text > h2 {
   font-size: 10px;
   font-weight: bold;
+  text-shadow: 1px 1px rgba(184, 184, 184, 1);
 }
 
+/* -------------------------------------------------------------------------- */
+
+/* feature-banner */
+
 .flex-box > .content > .feature-banner {
-  background-image: url(../img/html5-landing.png);
+  background: url(../img/html5-landing.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   height: 35%;
 }
+
+/* -------------------------------------------------------------------------- */
+
+/* portfolio projects */
 
 .flex-box > .content > .projects > .work-title > h2 {
   font-size: 22px;
@@ -99,8 +120,14 @@
   width: 60%;
 }
 
+/* -------------------------------------------------------------------------- */
+
+/* document footer */
+
 .foot-note {
   font-size: 11px;
   font-weight: bolder;
   padding-top: 8px;
 }
+
+/* -------------------------------------------------------------------------- */
