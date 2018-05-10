@@ -33,7 +33,7 @@ targetElements[3].addEventListener("click", function () {
 });
 
 hamburgerIcon.addEventListener("click", function () {
-  dropDownContent.classList.toggle(".dropdown:hover .dropdown-content");
+  dropDownContent.classList.toggle(".dropdown:hover");
 });
 
 
