@@ -38,7 +38,7 @@ hamburgerIcon.addEventListener("focus", function () {
 
 hamburgerIcon.addEventListener("blur", function () {
   dropDownContent.style.display = "none";
-})
+});
 
 // TODO: define event handler functions here
 
