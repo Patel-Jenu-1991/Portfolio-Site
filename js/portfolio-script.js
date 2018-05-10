@@ -32,7 +32,7 @@ targetElements[3].addEventListener("click", function () {
 });
 
 hamburgerIcon.addEventListener("click", function () {
-  document.querySelector(".dropdown-content").style.display = "block";
+  document.querySelector(".dropdown-content").classList.toggle(".dropdown:hover .dropdown-content");
 });
 
 // TODO: define event handler functions here
