@@ -32,13 +32,13 @@ targetElements[3].addEventListener("click", function () {
   lightText("#fff");
 });
 
-hamburgerIcon.addEventListener("mouseover", function () {
-  if (dropDownContent.style.display === "block") {
-    dropDownContent.style.display = "none";
-  } else {
-    dropDownContent.style.display = "block";
-  }
+hamburgerIcon.addEventListener("focus", function () {
+  dropDownContent.style.display = "block";
 });
+
+hamburgerIcon.addEventListener("blur", function () {
+  dropDownContent.style.display = "none";
+})
 
 // TODO: define event handler functions here
 
