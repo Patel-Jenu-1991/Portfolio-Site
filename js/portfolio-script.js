@@ -31,7 +31,11 @@ targetElements[3].addEventListener("click", function () {
   lightText("#fff");
 });
 
-hamburgerIcon.addEventListener("click", function () {
+hamburgerIcon.addEventListener("mouseover", function () {
+  document.querySelector(".dropdown-content").classList.toggle(".dropdown:hover .dropdown-content");
+});
+
+hamburgerIcon.addEventListener("mouseout", function () {
   document.querySelector(".dropdown-content").classList.toggle(".dropdown:hover .dropdown-content");
 });
 
