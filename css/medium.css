@@ -18,6 +18,10 @@
   width: 20%;
 }
 
+.flex-box > .side-bar > .color-stack {
+  padding: 70px 0 0 85px;
+}
+
 /* -------------------------------------------------------------------------- */
 /* Hamburger Menu */
 /* -------------------------------------------------------------------------- */
@@ -25,9 +29,51 @@
 .flex-box > .side-bar .hamburger-icon {
     margin-top: 80px;
 }
-.flex-box > .side-bar > .color-stack {
-  padding: 70px 0 0 85px;
+.flex-box > .side-bar .dropdown {
+    position: relative;
+    display: inline-block;
 }
+
+.flex-box > .side-bar .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    margin-left: 40px;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.flex-box > .side-bar .dropdown-content ul {
+  list-style: none;
+}
+
+.flex-box > .side-bar .dropdown-content ul li a img.linkedin {
+  background: #000;
+}
+
+.flex-box > .side-bar .dropdown-content a {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.flex-box > .side-bar .dropdown-content a:hover {
+  background-color: #f1f1f1
+}
+
+.flex-box > .side-bar .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.flex-box > .side-bar .dropdown:hover .hamburger-icon {
+    background-color: #000;
+}
+
+.flex-box > .side-bar .dropdown:hover .hamburger-icon span {
+  background-color: #fff;
+}
+
 /* -------------------------------------------------------------------------- */
 
 /* document header */
@@ -61,7 +107,7 @@
 /* feature-banner */
 
 .flex-box > .content > .feature-banner {
-  background: url(../img/medium-banner.jpg) no-repeat 100%;
+  background: url(https://raw.githubusercontent.com/Patel-Jenu-1991/portfolio/master/img/medium-banner.jpg) no-repeat 100%;
 }
 
 /* -------------------------------------------------------------------------- */
