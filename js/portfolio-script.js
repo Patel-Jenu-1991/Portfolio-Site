@@ -12,6 +12,7 @@ let targetElements = [
 let subHeading = document.querySelector(".work-title h2");
 let text = [document.querySelectorAll(".hex-value")];
 let hamburgerIcon = document.querySelector(".hamburger-icon");
+let dropDownContent = document.querySelector(".dropdown-content");
 
 // TODO: define event handlers here
 
@@ -32,11 +33,11 @@ targetElements[3].addEventListener("click", function () {
 });
 
 hamburgerIcon.addEventListener("mouseover", function () {
-  document.querySelector(".dropdown-content").style.display = "block";
-});
-
-hamburgerIcon.addEventListener("mouseout", function () {
-  document.querySelector(".dropdown-content").style.display = "none";
+  if (dropDownContent.style.display === "block") {
+    dropDownContent.style.display = "none";
+  } else {
+    dropDownContent.style.display = "block";
+  }
 });
 
 // TODO: define event handler functions here
