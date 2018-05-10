@@ -11,6 +11,7 @@ let targetElements = [
 
 let subHeading = document.querySelector(".work-title h2");
 let text = [document.querySelectorAll(".hex-value")];
+let hamburgerIcon = document.querySelector(".hamburger-icon");
 
 // TODO: define event handlers here
 
@@ -28,6 +29,10 @@ targetElements[2].addEventListener("click", function () {
 
 targetElements[3].addEventListener("click", function () {
   lightText("#fff");
+});
+
+hamburgerIcon.addEventListener("click", function () {
+  document.querySelector(".dropdown-content").style.display = "block";
 });
 
 // TODO: define event handler functions here
