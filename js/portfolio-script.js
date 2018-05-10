@@ -32,11 +32,11 @@ targetElements[3].addEventListener("click", function () {
 });
 
 hamburgerIcon.addEventListener("mouseover", function () {
-  document.querySelector(".dropdown-content").classList.toggle(".dropdown:hover .dropdown-content");
+  document.querySelector(".dropdown-content").style.display = "block";
 });
 
 hamburgerIcon.addEventListener("mouseout", function () {
-  document.querySelector(".dropdown-content").classList.toggle(".dropdown:hover .dropdown-content");
+  document.querySelector(".dropdown-content").style.display = "none";
 });
 
 // TODO: define event handler functions here
