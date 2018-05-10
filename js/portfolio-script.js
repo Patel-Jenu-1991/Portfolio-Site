@@ -32,13 +32,10 @@ targetElements[3].addEventListener("click", function () {
   lightText("#fff");
 });
 
-hamburgerIcon.addEventListener("focus", function () {
-  dropDownContent.style.display = "block";
+hamburgerIcon.addEventListener("click", function () {
+  dropDownContent.classList.toggle(".dropdown:hover .dropdown-content");
 });
 
-hamburgerIcon.addEventListener("blur", function () {
-  dropDownContent.style.display = "none";
-});
 
 // TODO: define event handler functions here
 
