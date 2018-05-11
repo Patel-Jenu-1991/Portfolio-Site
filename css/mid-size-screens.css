@@ -1,0 +1,86 @@
+/* tablets/netbooks/mid-size laptop screens */
+
+@media screen and (max-width: 1024px) {
+/* -------------------------------------------------------------------------- */
+
+  /* flex-box */
+
+  .flex-box {
+    width: 1000px;
+  }
+
+  /* document header */
+
+  .flex-box > .content > .doc-header {
+    height: 14%;
+    margin-top: 20px;
+  }
+
+  .flex-box > .content > .doc-header > .title-text {
+    margin-right: 15px;
+  }
+
+  .flex-box > .content > .doc-header > .title-text > h1 {
+    font-size: 52px;
+    letter-spacing: 1px;
+  }
+
+  .flex-box > .content > .doc-header > .title-text > p {
+    font-weight: bold;
+  }
+
+/* -------------------------------------------------------------------------- */
+
+  /* main content*/
+
+  .flex-box > .content {
+    overflow: auto;
+  }
+
+  /* feature-banner */
+
+  .flex-box > .content > .feature-banner {
+    background: url(https://raw.githubusercontent.com/Patel-Jenu-1991/portfolio/master/img/medium-banner.jpg) repeat 0 100%;
+  }
+
+/* -------------------------------------------------------------------------- */
+
+  /* portfolio projects */
+
+  .flex-box > .content > .projects > .show-case {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 30px;
+    padding: 5px;
+  }
+
+  .flex-box > .content > .projects > .show-case > .item {
+    width: 80%;
+  }
+
+  .flex-box > .content > .projects > .show-case > .item > .item-description > h3 {
+    font-size: 36px;
+  }
+
+  .flex-box > .content > .projects > .show-case > .item > .item-description > a {
+    font-size: 24px;
+  }
+
+  .flex-box > .content > .projects > .work-title > h2 {
+    font-size: 46px;
+    letter-spacing: 3px;
+    padding: 20px 0 20px 20px;
+  }
+
+/* -------------------------------------------------------------------------- */
+
+  /* document footer */
+
+  .foot-note {
+    font-size: 26px;
+    font-weight: bolder;
+    padding-top: 15px;
+  }
+
+/* -------------------------------------------------------------------------- */
+}
