@@ -3,51 +3,9 @@
 /* flex-box */
 
 .flex-box {
-  width: 100%;
-}
-
-/* -------------------------------------------------------------------------- */
-
-/* side-bar */
-
-.flex-box > .side-bar {
-  width: 20%;
-}
-
-.flex-box > .side-bar > .color-stack {
-  padding: 30px 0 0 10px;
-  text-align: center;
-}
-
-.flex-box > .side-bar > .color-stack > .color-tiles > li > svg {
-  width: 40px;
-  height: 40px;
-}
-
-.flex-box > .side-bar > .color-stack > .color-tiles > li > .hex-value {
-  font-size: 14px;
-  font-weight: 500;
-}
-
-.flex-box > .side-bar > .color-stack > .color-tiles > li > .hex-value:hover {
-  font-size: 12px;
-  text-decoration: none;
-}
-
-/* -------------------------------------------------------------------------- */
-/* Hamburger Menu */
-/* -------------------------------------------------------------------------- */
-
-.flex-box > .side-bar .hamburger-icon {
-  padding: 12px;
-  margin-top: 35px;
-  margin-left: 0;
-}
-
-.flex-box > .side-bar .hamburger-icon span {
-  width: 40px;
-  height: 8px;
-  margin: 4px 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
 }
 
 /* -------------------------------------------------------------------------- */
@@ -55,7 +13,6 @@
 /* -------------------------------------------------------------------------- */
 
 .flex-box > .content {
-  width: 80%;
   overflow: auto;
 }
 

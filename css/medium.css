@@ -4,33 +4,7 @@
 
 .flex-box {
   width: 1000px;
-  margin-left: auto;
-  margin-right: auto;
 }
-
-/* -------------------------------------------------------------------------- */
-
-/* -------------------------------------------------------------------------- */
-
-/* side-bar */
-
-.flex-box > .side-bar {
-  width: 20%;
-}
-
-.flex-box > .side-bar > .color-stack {
-  padding: 70px 0 0 85px;
-}
-
-/* -------------------------------------------------------------------------- */
-/* Hamburger Menu */
-/* -------------------------------------------------------------------------- */
-
-.flex-box > .side-bar .hamburger-icon {
-    margin-top: 80px;
-}
-
-/* -------------------------------------------------------------------------- */
 
 /* document header */
 
@@ -63,7 +37,7 @@
 /* feature-banner */
 
 .flex-box > .content > .feature-banner {
-  background: url(https://raw.githubusercontent.com/Patel-Jenu-1991/portfolio/master/img/medium-banner.jpg) no-repeat 100%;
+  background: url(https://raw.githubusercontent.com/Patel-Jenu-1991/portfolio/master/img/medium-banner.jpg) repeat 0 100%;
 }
 
 /* -------------------------------------------------------------------------- */
@@ -92,7 +66,7 @@
 .flex-box > .content > .projects > .work-title > h2 {
   font-size: 46px;
   letter-spacing: 3px;
-  padding: 5px 0 20px 20px;
+  padding: 20px 0 20px 20px;
 }
 
 /* -------------------------------------------------------------------------- */
