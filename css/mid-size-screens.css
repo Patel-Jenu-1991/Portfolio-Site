@@ -82,5 +82,18 @@
     padding-top: 15px;
   }
 
+  .foot-note > .note {
+    width: 80%;
+  }
+
+  .foot-note > .social-media {
+    width: 20%;
+  }
+
+  .foot-note > .social-media > a > .social-media-icon {
+    width: 70px;
+  }
+
+
 /* -------------------------------------------------------------------------- */
 }
