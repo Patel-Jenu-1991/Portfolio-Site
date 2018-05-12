@@ -1,43 +1,35 @@
 /* Mobile Screens */
-
 @media screen and (min-width: 300px) and (max-width: 768px) {
-/* -------------------------------------------------------------------------- */
-
+  /* -------------------------------------------------------------------------- */
   /* flex-box */
-
   .flex-box {
     margin-left: auto;
     margin-right: auto;
     width: 95%;
   }
-
-/* -------------------------------------------------------------------------- */
-/*                                Main content                                */
-/* -------------------------------------------------------------------------- */
-
+  /* -------------------------------------------------------------------------- */
+  /*                                Main content                                */
+  /* -------------------------------------------------------------------------- */
   .flex-box > .content {
     overflow: auto;
   }
-
-/* -------------------------------------------------------------------------- */
-
+  /* -------------------------------------------------------------------------- */
   /* document header */
-
   .flex-box > .content > .doc-header {
+    margin-top: 0;
     height: 15%;
   }
 
   .flex-box > .content > .doc-header > .logo {
-    margin-top: 15px;
+    margin-top: 5px;
   }
 
   .flex-box > .content > .doc-header > .logo > img {
-    width: 40px;
-    height: 40px;
+    width: 65%;
   }
 
   .flex-box > .content > .doc-header > .title-text {
-    margin-top: 15px;
+    margin-top: 30px;
     margin-right: 0;
   }
 
@@ -52,23 +44,18 @@
     font-weight: bold;
     text-shadow: 1px 1px rgba(184, 184, 184, 1);
   }
-
-/* -------------------------------------------------------------------------- */
-
+  /* -------------------------------------------------------------------------- */
   /* feature-banner */
-
   .flex-box > .content > .feature-banner {
-    background: url(https://raw.githubusercontent.com/Patel-Jenu-1991/portfolio/master/img/html5-landing.png);
+    background: url(../img/html5-landing.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     height: 35%;
   }
-
-/* -------------------------------------------------------------------------- */
-
+  /* -------------------------------------------------------------------------- */
   /* portfolio projects */
   .flex-box > .content > .projects {
-      height: auto;
+    height: auto;
   }
 
   .flex-box > .content > .projects > .work-title > h2 {
@@ -89,14 +76,25 @@
     width: 70%;
   }
 
-
-  .flex-box > .content > .projects > .show-case > .item > .item-description > h3 {
+  .flex-box
+    > .content
+    > .projects
+    > .show-case
+    > .item
+    > .item-description
+    > h3 {
     font-size: 16px;
     font-weight: 300;
     padding: 0;
   }
 
-  .flex-box > .content > .projects > .show-case > .item > .item-description > a {
+  .flex-box
+    > .content
+    > .projects
+    > .show-case
+    > .item
+    > .item-description
+    > a {
     font-size: 12px;
   }
 
@@ -105,20 +103,16 @@
     padding: 0;
     width: 60%;
   }
-
-/* -------------------------------------------------------------------------- */
-
+  /* -------------------------------------------------------------------------- */
   /* document footer */
-
   .foot-note {
-    font-size: 0.5em;
-    font-weight: bolder;
+    font-size: 0.6em;
     height: 5%;
     padding-top: 0;
   }
 
   .foot-note > .note {
-    padding-top: 1%;
+    padding-top: 2%;
     width: 84%;
   }
 
@@ -129,8 +123,5 @@
   .foot-note > .social-media > a > .social-media-icon {
     width: 50%;
   }
-
-/* -------------------------------------------------------------------------- */
+  /* -------------------------------------------------------------------------- */
 }
-
-/* -------------------------------------------------------------------------- */
