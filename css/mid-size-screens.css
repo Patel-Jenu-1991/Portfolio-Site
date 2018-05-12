@@ -46,6 +46,9 @@
 /* -------------------------------------------------------------------------- */
 
   /* portfolio projects */
+  .flex-box > .content > .projects {
+    height: auto;
+  }
 
   .flex-box > .content > .projects > .show-case {
     grid-template-columns: 1fr;
@@ -77,12 +80,13 @@
   /* document footer */
 
   .foot-note {
-    font-size: 26px;
+    font-size: 24px;
     font-weight: bolder;
-    padding-top: 15px;
+    padding-top: 0;
   }
 
   .foot-note > .note {
+    padding-top: 15px;
     width: 80%;
   }
 

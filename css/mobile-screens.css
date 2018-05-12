@@ -8,7 +8,7 @@
   .flex-box {
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
+    width: 95%;
   }
 
 /* -------------------------------------------------------------------------- */
@@ -67,6 +67,9 @@
 /* -------------------------------------------------------------------------- */
 
   /* portfolio projects */
+  .flex-box > .content > .projects {
+      height: auto;
+  }
 
   .flex-box > .content > .projects > .work-title > h2 {
     font-size: 22px;
@@ -108,23 +111,23 @@
   /* document footer */
 
   .foot-note {
-    font-size: 10px;
+    font-size: 0.5em;
     font-weight: bolder;
-    overflow: auto;
+    height: 5%;
     padding-top: 0;
   }
 
   .foot-note > .note {
-    padding-top: 0;
-    width: 80%;
+    padding-top: 1%;
+    width: 84%;
   }
 
   .foot-note > .social-media {
-    width: 20%;
+    width: 16%;
   }
 
   .foot-note > .social-media > a > .social-media-icon {
-    width: 25px;
+    width: 50%;
   }
 
 /* -------------------------------------------------------------------------- */
