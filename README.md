@@ -113,5 +113,5 @@ This project has no License.
 * ColorZilla for the awesome gradients generated.
 * Lisa (My mentor at Udacity) for her generous support throughout the curriculum.
 * All the instructors at Udacity for the FEND Nanodegree Program.
-* References: MDN, CSS Tricks, W3 Documentation, W3Schools, Stack overflow, google,
+* References: MDN, CSS Tricks, W3 Documentation, W3Schools, Stack overflow, Google (for the images and much more),
   and last but not the least - Udacity for providing me with a wonderful Opportunity.
