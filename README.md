@@ -48,7 +48,7 @@ above the repository's directories/files listing.
 
 To clone using git navigate to the directory where you'd like to have the project using your terminal/command line app and run the following command:
 ```
-$ git clone https://github.com/Patel-Jenu-1991/portfolio.git
+$ git clone https://github.com/Patel-Jenu-1991/portfolio-site.git
 ```
 
 Press Enter. Your local clone will be created.
@@ -102,7 +102,7 @@ I'm using git for Versioning. [Download Git](https://git-scm.com/downloads) to i
 
 ## Authors
 
-* **Jaineshkumar Patel** - *Initial work* - [Portfolio-Site](https://patel-jenu-1991.github.io/portfolio/)
+* **Jaineshkumar Patel** - *Initial work* - [Portfolio-Site](https://patel-jenu-1991.github.io/portfolio-site/)
 
 ## License
 
